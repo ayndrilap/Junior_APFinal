@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Update these (from Curator Guide) -->
+  <meta name="description" content="Junior Fall Portfolio for Ayndrila Paul" />
+  <meta name="keywords" content="portfolio, junior, projects, programming, web development" />
+  <meta name="author" content="YOUR NAME" />
+
+  <title>Ayndrila Paul | Junior Fall Portfolio</title>
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Optional favicon (put your icon file in the same folder) -->
+  <link rel="icon" type="image/x-icon" href="favicon.png" />
+
+  <!-- Optional fonts (only keep if your CSS uses them) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <!-- Replace logo.png with your own image file -->
+        <img src="Avatar.png" alt="Logo" />
+      </div>
+
+      <ul class="navbar-right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="cfus.html">CFUs</a></li>
+        <li><a href="labs.html">Labs</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="home-card">
+
+    <!-- ABOUT / BIO CARD -->
+    <section class="resource-card">
+      <div class="bio">
+        <div class="bio-pic">
+          <!-- Replace profile.jpg with your own image file -->
+          <img src="cuteness.png" alt="Your Photo" />
+        </div>
+
+        <div class="bio-text">
+          <h1>Ayndrila Paul </h1>
+          <h4>Student at Thomas A. Edison CTE High School</h4>
+          <p>
+            Paste your portfolio purpose statement from your Curator Guide here.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUICK LINKS CARD (optional) -->
+    <section class="resource-card">
+      <h2>Links</h2>
+      <p>Add your links from the Curator Guide.</p>
+
+      <div class="skill-images">
+        <!-- Old portfolio -->
+        <a href="https://ayndrilap.github.io/Final_Portfolio/" target="_blank" rel="noopener">
+          <div class="picture">
+            <img class="link-pic" src="old_portfolio_icon.png" alt="Old Portfolio" />
+          </div>
+        </a>
+
+        <!-- Email -->
+        <a href="mailto:YOUR_EMAIL" target="_blank" rel="noopener">
+          <div class="picture">
+            <img class="link-pic" src="email_icon.png" alt="Email" />
+          </div>
+        </a>
+
+        <!-- LinkedIn (or other) -->
+        <a href="PASTE-LINKEDIN-OR-OTHER" target="_blank" rel="noopener">
+          <div class="picture">
+            <img class="link-pic" src="linkedin_icon.png" alt="LinkedIn" />
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION (repeatable blocks) -->
+    <section class="resource-card">
+      <h2>Featured Projects</h2>
+      <p>Each project includes an embed and a reflection from your Curator Guide.</p>
+    </section>
+
+    <!-- PROJECT 1 -->
+    <section class="resource-card">
+      <div class="project">
+        <iframe src="https://py3.codeskulptor.org/#user310_dlWgFXBFWH_8.py" title="Holidays Drawing Project"></iframe>
+
+        <div class="reflection">
+          <h3>Holidays Drawing Project</h3>
+          <p>
+            I wanted to feature this project as I felt that I had the freedom to create whatever I wanted and how to create it in the most efficient way possible. I  am proud of this work because it shows my understanding of loops and how canvas operations work. I also got to use my creativity to make a drawing using code.
+          </p>
+          <p><strong>Skills:</strong> Python</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT 2 -->
+    <section class="resource-card">
+      <div class="project">
+        <iframe src="https://py3.codeskulptor.org/#user310_9v6gwK06TxCHsfj_4.py" title="CFU 13 - Happy Dots"></iframe>
+
+        <div class="reflection">
+          <h3>CFU 13 - Happy Dots</h3>
+          <p>
+            This project shows the early stages of me learning what canvas operators do and how they work. Here I attempt to make a smiley face using only dots. I chose to feature this project because it took a lot of time and effort for me to make the face using individual dots that I had to plot.
+          <p><strong>Skills:</strong> Python</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Add more projects by copying PROJECT blocks -->
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="resource-card">
+    <p>© <span id="year"></span> Ayndrila Paul | Junior Fall Portfolio</p>
+  </footer>
+
+  <script>
+    // Auto-updates the year in the footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
