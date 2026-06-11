@@ -8,9 +8,9 @@
 body {
   margin: 0;
   font-family: 'Montserrat', Arial, sans-serif;
-  background-image: #3b0d15;
-  color: #f0f0f0;
-  background-image: url("PlumPlaid.jpeg");
+  background-image: #e3d496;
+  color: #e3ca96;
+  background-image: url("Flowers.jpeg");
   background-size: cover;
   background-repeat: repeat-y;
   background-attachment: fixed;
@@ -20,7 +20,7 @@ body {
    NAVBAR
 ========================= */
 .navbar {
-  background-color: #340910;
+  background-color: #6b082a;
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
@@ -94,7 +94,7 @@ body {
 .bio-text h4 {
   margin-top: 0;
   font-weight: normal;
-  color: #fd4381;
+  color: #c6a43f;
 }
 
 /* =========================
