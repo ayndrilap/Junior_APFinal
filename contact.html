@@ -1,4 +1,24 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<body>
  <link rel="stylesheet" href="style.css" />
+ <header>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <!-- Replace logo.png with your own image file -->
+        <img src="cat.png" alt="Logo" />
+      </div>
+
+      <ul class="navbar-right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="cfus.html">CFUs</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
  <section class="resource-card">
       <h2>Links</h2>
       <p>Add your links from the Curator Guide.</p>
@@ -26,3 +46,9 @@
         </a>
       </div>
     </section>
+    <script>
+    // Auto-updates the year in the footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    </body>
+    </html>
