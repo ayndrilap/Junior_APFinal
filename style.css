@@ -9,7 +9,7 @@ body {
   margin: 0;
   font-family: 'Montserrat', Arial, sans-serif;
   background-image: #e3d496;
-  color: #e3ca96;
+  color: #8a3580;
   background-image: url("Star.jpeg");
   background-size: cover;
   background-repeat: repeat-y;
@@ -20,7 +20,7 @@ body {
    NAVBAR
 ========================= */
 .navbar {
-  background-color: #6b082a;
+  background-color: #48052d;
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
@@ -40,13 +40,14 @@ body {
 }
 
 .navbar-right a {
-  color: white;
+  color: #e2d177;
   text-decoration: none;
   font-weight: bold;
 }
 
 .navbar-right a:hover {
-  color: #80024ccc;
+  background-color: #48052d;
+  color: #48052d;
 }
 
 /* =========================
@@ -62,7 +63,7 @@ body {
    CARDS
 ========================= */
 .resource-card {
-  background-color: #610e27;
+  background-color: #48052d;
   margin: 2em auto;
   padding: 1.5em;
   border-radius: 12px;
@@ -94,7 +95,7 @@ body {
 .bio-text h4 {
   margin-top: 0;
   font-weight: normal;
-  color: #c6a43f;
+  color: #e2d177;
 }
 
 /* =========================
@@ -154,7 +155,7 @@ body {
   height: 80px;
   width: 80px;
   border-radius: 10px;
-  border: 2px solid white;
+  border: 2px solid #e2d177;
   object-fit: cover;
 }
 
@@ -168,7 +169,7 @@ color:rgb(246, 223, 160)
 footer {
   text-align: center;
   font-size: 0.85em;
-  color: #cccccc;
+  color: #e2d177;
 }
 
 /* =========================
